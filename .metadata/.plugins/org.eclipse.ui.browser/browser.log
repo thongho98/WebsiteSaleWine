@@ -1,0 +1,60 @@
+
+Oct 07, 2019 13:15:29.55 NEW SESSION
+Oct 07, 2019 13:15:29.55 [13548:12548:1007/131529.542:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 07, 2019 13:15:52.52 [13548:12548:1007/131552.525:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 07, 2019 13:15:53.80 [13548:6844:1007/131553.806:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-105).
+Oct 07, 2019 13:15:53.97 [13548:6844:1007/131553.974:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-105).
+Oct 07, 2019 13:15:54.22 [13548:6844:1007/131554.229:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-105).
+Oct 07, 2019 13:15:54.61 [13548:6844:1007/131554.615:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-105).
+
+Oct 09, 2019 10:28:33.05 NEW SESSION
+Oct 09, 2019 10:28:33.05 [7984:15472:1009/102833.050:ERROR:socket_stream.cc(219)] Closing stream with result -2
+
+Oct 14, 2019 15:00:16.45 NEW SESSION
+Oct 14, 2019 15:00:16.45 [12864:2868:1014/150016.417:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 14, 2019 15:00:40.65 [12864:2868:1014/150040.658:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 14, 2019 15:00:46.69 [12864:13372:1014/150046.691:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-105).
+Oct 14, 2019 15:00:47.51 [12864:13372:1014/150047.517:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-105).
+Oct 14, 2019 15:00:47.66 [12864:13372:1014/150047.668:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-105).
+Oct 14, 2019 15:01:35.26 [12864:2868:1014/150135.263:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 14, 2019 15:03:07.47 [12864:2868:1014/150307.472:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 14, 2019 15:06:59.82 [12864:2868:1014/150659.822:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 14, 2019 15:12:56.28 [12864:2868:1014/151256.289:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 14, 2019 15:13:11.58 [12864:13372:1014/151311.584:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Oct 14, 2019 15:13:33.22 [12864:13372:1014/151333.226:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Oct 14, 2019 15:14:24.44 [12864:13372:1014/151424.440:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Oct 14, 2019 15:16:01.17 [12864:13372:1014/151601.179:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Oct 14, 2019 15:19:14.90 [12864:13372:1014/151914.904:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+
+Oct 22, 2019 15:17:51.93 NEW SESSION
+Oct 22, 2019 15:17:51.93 [19176:12296:1022/151751.919:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 22, 2019 15:18:14.57 [19176:12296:1022/151814.572:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 22, 2019 15:19:12.29 [19176:12296:1022/151912.296:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 22, 2019 15:20:51.37 [19176:12296:1022/152051.374:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 22, 2019 15:23:36.41 [19176:12296:1022/152336.410:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 22, 2019 15:24:22.25 [19176:13064:1022/152422.254:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Oct 22, 2019 15:24:50.26 [19176:13064:1022/152450.269:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Oct 22, 2019 15:25:48.72 [19176:13064:1022/152548.729:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Oct 22, 2019 15:27:28.86 [19176:13064:1022/152728.863:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Oct 22, 2019 15:29:56.14 [19176:12296:1022/152956.144:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 22, 2019 15:30:43.49 [19176:13064:1022/153043.497:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Oct 22, 2019 15:36:54.51 [19176:13064:1022/153654.518:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Oct 22, 2019 15:39:56.15 [19176:12296:1022/153956.153:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 22, 2019 15:46:54.51 [19176:13064:1022/154654.518:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Oct 22, 2019 15:49:56.15 [19176:12296:1022/154956.159:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 22, 2019 15:56:54.52 [19176:13064:1022/155654.522:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Oct 22, 2019 15:59:56.17 [19176:12296:1022/155956.175:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 22, 2019 16:06:54.53 [19176:13064:1022/160654.534:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Oct 22, 2019 16:09:56.19 [19176:12296:1022/160956.193:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+
+Oct 29, 2019 15:12:01.50 NEW SESSION
+Oct 29, 2019 15:12:01.50 [4772:11872:1029/151201.240:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 29, 2019 15:12:21.37 [4772:11872:1029/151221.376:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 29, 2019 15:13:04.88 [4772:11872:1029/151304.881:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Oct 29, 2019 15:14:51.09 [4772:11872:1029/151451.094:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+
+Nov 26, 2019 08:35:37.65 NEW SESSION
+Nov 26, 2019 08:35:37.65 [6920:16536:1126/083537.652:ERROR:CONSOLE(5256)] "Cannot find context with specified id", source: devtools://devtools/bundled/shell.js (5256)
+Nov 26, 2019 08:35:37.69 [6920:16536:1126/083537.652:ERROR:CONSOLE(8052)] "Extension server error: Inspector protocol error: Cannot find context with specified id", source: devtools://devtools/bundled/shell.js (8052)
+Nov 26, 2019 09:21:28.55 [6920:16536:1126/092128.557:ERROR:event_router.cc(709)] Event dispatched while shutting down extensions browser client.
+Nov 26, 2019 09:21:28.55 [6920:16536:1126/092128.557:ERROR:event_router.cc(709)] Event dispatched while shutting down extensions browser client.

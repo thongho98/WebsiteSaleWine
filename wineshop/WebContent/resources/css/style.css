@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato';
+    font-size: 100px;
+}
+
+/*Header*/
+.navbar-brand {
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: lightcoral !important;
+}
+
+.nav-link {
+    font-size: 16px;
+    margin: 15px;
+    color: white !important;
+    font-family: 'Roboto Condensed';
+}
+
+.nav-link:hover {
+    color: #00E8E8 !important;
+}
+
+.active .nav-link {
+    color: #00E8E8 !important;
+}
+
+.menu-right-btn {
+    padding: 13px 46px;
+    margin-right: 1%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+
+}
+
+.menu-right-btn:hover {
+    color: white;
+    background-color: rgb(140, 252, 252);
+}
+
+.shopping-cart {
+    border: none;
+    position: relative;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.shopping-cart .cart-number {
+    border-radius: 60%;
+    border: 3px solid red;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: -1px;
+}
+
+.site-content {
+    background-image: url(https://storage.googleapis.com/imgvn/904faee62a17.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-title,
+.site-desc {
+    color: white;
+    font-family: 'Roboto Condensed';
+}
+
+.site-title {
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+
+.site-desc {
+    font-size: 14px;
+}
+
+.site-btn1 {
+    margin-left: 45%;
+    background-color: black;
+    color: white;
+}
+
+.site-btn2 {
+    background-color: white;
+}
+
+.site-btn1,
+.site-btn2 {
+    margin-top: 5%;
+    margin-bottom: 40%;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+main {
+    background-color: #f4f4f4;
+}
+
+.navbar .navbarMenu .navbar-nav .navbar-item {
+    display: block;
+    position: relative;
+}
+
+/*Section 1*/
+.section-1 {
+    margin-bottom: 2%;
+}
+
+.section-1 .category-title {
+    border-bottom: 2px solid red;
+}
+
+.section-1 .category-title .heading-1 {
+    text-align: left;
+    padding-top: 2%;
+}
+
+.section-1 .heading-2 {
+    margin-bottom: 5%;
+    font-size: 39px;
+}
+
+.section-1 .para-1 {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.section-1 .card-text .para-1 {
+    color: rgba(0, 0, 0, 0.59);
+}
+
+.card {
+    width: 20rem;
+}
+
+.card-body {
+    border-top: 1px solid red;
+}
+
+.card-title {
+    color: orange;
+}
+
+.card-text {
+    color: red;
+    font-weight: bold;
+}
+
+/*Section 2*/
+.section-2 .container-fluid {
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcHBwcGBgcHBwcGDQoPBgYHBw8ICQYWFREWFhQRExMYHSggGBolGx8fITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0KEA0PDisdExkrNysrKysrKysrKysrLS0rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALEBHAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQQH/8QAFRABAQAAAAAAAAAAAAAAAAAAAAH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAUD/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A6AqK4t8ACIqRQAAIVFCAEggQBQAgAIACWBAAACAAlAAAAlACAAhUUBnVFaDqABEVIoAAEKihACQQIAoAQAEABLAgAABAASwAAACUAIACFRQGdUVoOoAERUigAAQqKEAJBAgCgBAAQAEsCAAAEABKAAABKAEABCooDOqK0HUACIqRQAAIVFCAEggQBQAgAIACWBAAACAAlAAAAlACAAhUUBnVFaDqABEVIoAAEKihACQQIAoAQAEABLAgAABAASgAAASgBAAQqKAzqitB1AAiKkUAACFRQgBIIEAUAIACAAlgQAAAgAJQAAAJQAgAIVFAZ1RWg6gARFSKAABCooQAkECAKAEABAASwIAAAQAEoAAAEoAQAEKigM6orQdQAIipFAAAhUUIASCBAFACAAgAJYEAAAIACUAAACUAIACFRQGdUVoOoAERUigAAQqKEAJBAgCgBAAQAEsCAAAEABKAAABKAEABCooDOqK0HUACIqRQAAIVFCAEggQBQAgAIACWBAAACAAlAAAAlACAAhUUBnVFaDqABEVIoAAEKihACQQIAoAQAEABLAgAABAAShAAACUAIACFRQGeqDQdQAIigAABCgEAJBFAAAIACAAlgAAAEABKAAABKAEABCgA/9k=);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-2 .heading-1 {
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family: 'Righteous';
+    width: 80%;
+    color: whitesmoke;
+}
+
+.section-2 .para {
+    width: 80%;
+    font-family: 'Ubuntu';
+    color: whitesmoke;
+}
+
+.section-2 .btn {
+    margin-bottom: 15%;
+    padding: 2% 5%;
+}
+
+/*Section 3*/
+.section-3 i {
+    color: red;
+}
+
+.section-3 p {
+    color: rgba(0, 0, 0, 0.59);
+}
+
+/*Section 4*/
+.section-4 {
+    margin-top: 3%;
+}
+
+.section-4 .row .col-md-7,
+.col-md-5 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.section-4 a {
+    color: lightseagreen;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.section-4 .para-1 {
+    color: white;
+    font-family: 'Roboto Condensed';
+    margin-top: 7%;
+}
+
+footer .page-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.page-footer {
+    background-color: #222222;
+}
+
+.page-footer p,.info-com{
+    color: #9d9d9d;
+}
+.page-footer .container a {
+    text-decoration: none;
+    color: #9d9d9d;
+}
+
+.page-footer .container h5 {
+    color: #9d9d9d;
+}
+
+.page-footer .footer-copyright {
+    background-color: #222222;
+    border-top: 2px solid black;
+    color: #9d9d9d;
+}
+
+.page-footer .footer-copyright a {
+    text-decoration: none;
+    color: #9d9d9d;
+}
+
+.page-footer .info-com {
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .section-1 .card {
+        width: 14rem;
+    }
+
+    .section-1 .col-md-7 img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .site-content .site-title {
+        font-size: 30px;
+        padding-left: 15%;
+    }
+
+    .site-content .site-btn2 {
+        display: none;
+    }
+
+    .site-content .site-btn1 {
+        margin-left: 15%;
+    }
+
+    .section-1 .heading-1,
+    .section-1 .heading-2 {
+        font-size: 25px;
+    }
+
+    .section-1 .col-md-4 {
+        padding: 5%;
+        margin-left: 8%;
+    }
+
+    .section-1 .card {
+        width: 15rem;
+    }
+
+    .section-4 .col-md-5 {
+        padding: 0% 15%;
+    }
+}
+
+.info{
+    font-size: 22px;
+}
+
+.info h2{
+    font-size: 50px;
+}
+
+.info input{
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 45px;
+}
+
+.info button, .info a{
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 40%;
+}

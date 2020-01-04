@@ -1,0 +1,100 @@
+CREATE DATABASE wineshop
+GO
+USE wineshop
+GO
+CREATE TABLE users(
+	id BIGINT PRIMARY KEY IDENTITY,
+	displayName NVARCHAR(255) NOT NULL,
+  	username VARCHAR(255) NOT NULL,
+  	email VARCHAR(500) NOT NULL,
+  	phone VARCHAR(50) NOT NULL,
+  	password VARCHAR(1000) NOT NULL,
+  	active BIT DEFAULT 1
+)
+GO
+CREATE TABLE roles(
+	id INT PRIMARY KEY,
+	roleName NVARCHAR(255) NOT NULL
+)
+GO
+CREATE TABLE user_role(
+	id_user BIGINT NOT NULL,
+	id_role INT NOT NULL,
+	FOREIGN KEY (id_user) REFERENCES dbo.users(id),
+	FOREIGN KEY (id_role) REFERENCES dbo.roles(id)
+)
+GO
+CREATE TABLE categories(
+	id INT PRIMARY KEY IDENTITY,
+	name NVARCHAR(255) NOT NULL
+)
+GO 
+CREATE TABLE supplier(
+	id INT PRIMARY KEY IDENTITY,
+	name NVARCHAR(255) NOT NULL,
+	address NVARCHAR(255) NOT NULL
+)
+GO 
+CREATE TABLE status_product(
+	id INT primary KEY IDENTITY,
+	name NVARCHAR(255) NOT NULL
+)
+GO 
+CREATE TABLE products(
+	id INT PRIMARY KEY IDENTITY,
+	code VARCHAR(50) NOT NULL,
+	name NVARCHAR(255) NOT NULL,
+	price FLOAT NOT NULL,
+	quantity INT NOT NULL,
+	alcohol FLOAT NOT NULL,
+	description NVARCHAR(1000) NOT NULL,
+	madein NVARCHAR(255)NOT NULL,
+	update_at DATETIME DEFAULT GETDATE(),
+	id_supplier INT NOT NULL,
+	id_category INT NOT NULL,
+	id_status INT NOT NULL,
+	url_img VARCHAR(255) NOT NULL,
+	FOREIGN KEY (id_supplier) REFERENCES dbo.supplier(id),
+	FOREIGN KEY (id_category) REFERENCES dbo.categories(id),
+	FOREIGN KEY (id_status) REFERENCES dbo.status_product(id)
+)
+GO 
+CREATE TABLE bill_status(
+	id INT PRIMARY KEY IDENTITY,
+	name NVARCHAR(50) NOT NULL
+)
+GO
+CREATE TABLE bills(
+	id BIGINT PRIMARY KEY IDENTITY,
+	id_user BIGINT NOT NULL,
+	id_status INT NOT NULL,
+	total FLOAT NOT NULL,
+	checkout_day DATETIME NULL,
+	checkin_day DATETIME NOT NULL DEFAULT GETDATE(),
+	notes NVARCHAR(255) NOT NULL,
+	FOREIGN KEY (id_user) REFERENCES dbo.users(id),
+	FOREIGN KEY (id_status) REFERENCES dbo.bill_status(id)
+)
+GO 
+CREATE TABLE bill_detail(
+	id BIGINT PRIMARY KEY IDENTITY,
+	id_bill BIGINT NOT NULL,
+	id_product INT NOT NULL,
+	quantity INT NOT NULL,
+	FOREIGN KEY (id_bill) REFERENCES dbo.bills(id),
+	FOREIGN KEY (id_product) REFERENCES dbo.products(id)
+)
+GO 
+CREATE TABLE about(
+	id INT PRIMARY KEY IDENTITY,
+	description NVARCHAR(4000) NOT NULL,
+	img NVARCHAR(1000) NOT NULL
+)
+GO
+CREATE TABLE contact(
+	id INT PRIMARY KEY IDENTITY,
+	name NVARCHAR(255) NOT NULL,
+	email NVARCHAR(255) NOT NULL,
+	title NVARCHAR(255) NOT NULL,
+	content NVARCHAR(1000) NOT NULL
+)

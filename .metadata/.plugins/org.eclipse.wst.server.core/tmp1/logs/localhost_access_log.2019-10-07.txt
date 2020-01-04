@@ -1,0 +1,14 @@
+127.0.0.1 - - [07/Oct/2019:13:15:17 +0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [07/Oct/2019:13:15:20 +0700] "GET /wineshop/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2019:13:15:21 +0700] "GET /wineshop/index.html;jsessionid=DFF3725B6F5C8E9F26215399FA37FA35 HTTP/1.1" 200 19848
+0:0:0:0:0:0:0:1 - - [07/Oct/2019:13:15:21 +0700] "GET /robots.txt HTTP/1.1" 404 1084
+0:0:0:0:0:0:0:1 - - [07/Oct/2019:13:15:21 +0700] "GET /wineshop/resources/css/slideshow-product.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2019:13:15:21 +0700] "GET /wineshop/resources/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2019:13:15:21 +0700] "GET /wineshop/resources/js/slideshow-product.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2019:13:15:21 +0700] "GET /wineshop/resources/js/animation.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2019:13:15:22 +0700] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [07/Oct/2019:13:15:25 +0700] "GET /wineshop/product.html HTTP/1.1" 200 23295
+0:0:0:0:0:0:0:1 - - [07/Oct/2019:13:15:49 +0700] "GET /wineshop HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2019:13:15:49 +0700] "GET /wineshop/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2019:13:15:49 +0700] "GET /wineshop/index.html HTTP/1.1" 200 19848
+0:0:0:0:0:0:0:1 - - [07/Oct/2019:13:15:56 +0700] "GET /wineshop/about.html HTTP/1.1" 200 7763

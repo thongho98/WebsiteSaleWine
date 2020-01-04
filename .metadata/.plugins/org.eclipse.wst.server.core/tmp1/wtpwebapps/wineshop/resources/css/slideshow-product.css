@@ -1,0 +1,7 @@
+.owl-dots{
+    display: none;
+}
+.owl-prev span, .owl-next span{
+    size: 35px;
+
+}
